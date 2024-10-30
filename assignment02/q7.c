@@ -34,7 +34,7 @@ int main() {
         if (strcmp(search, "END") == 0) {
             break; 
         }
-        //row wise search
+        
         for(int i=0;i<6;i++){
             for(int j=0;j<5;j++){
                 if(letters[i][j]==search[0]){
@@ -62,7 +62,7 @@ int main() {
             }
         }
         if(match1!=1){
-         //column wise search
+         
         for(int i=0;i<5;i++){
             for(int j=0;j<6;j++){
                 if(letters[j][i]==search[0]){
