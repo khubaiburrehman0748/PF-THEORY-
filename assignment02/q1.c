@@ -24,9 +24,11 @@ int main(){
     }
     }
     printf("Minimum Number = %d \n",min);
-    printf("Maxmimum Number = %d \n",max);
+    printf("Maximum Number = %d \n",max);
     printf("second Minimum Number = %d \n",min2);
     printf("second Maxmimum Number = %d",max2);
     
   return 0;
 }
+
+
